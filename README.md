@@ -1,5 +1,13 @@
 # P2Pirate Assets
 
+## Start here with an AI or as a new contributor
+
+Read [AGENTS.md](AGENTS.md) first, then the [AI/contributor project guide](docs/AI_PROJECT_GUIDE.md).
+They explain repository scope, architecture, safe setup, limits and cross-repository
+contracts. Relevant behavior/contract changes must review these guides in the same
+PR; use the guide-maintenance section of the PR template.
+
+
 Versioned coin configuration, seed nodes, and the 453 previously used coin PNGs for the P2Pirate desktop wallet. The wallet asks before its first download and provides a manual **Check updates** action in Settings. The manifest protects every downloaded file with SHA-256; the Git commit identifies the full snapshot.
 
 | Path | Purpose |
